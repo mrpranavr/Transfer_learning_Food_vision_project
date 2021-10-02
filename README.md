@@ -1,1 +1,122 @@
-# Transfer_learning_Food_vision_project
+<head>
+<h1 align="center"><b>Transfer learning project - FOOD VISION</b></h1><br>
+</head>
+<p align= "center">
+  Use Transfer learning to create a Deep learning model using <b>Tensorflow</b> that is able to classify 101 different classes of food types
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88646272/135720049-8383e289-9f6a-456b-ab25-fce7a322c712.jpeg" width=50% height=50%>
+</p>
+
+
+## What is Transfer Learning ?
+Transfer Learning is a type of machine learning problem that used the knowledge gained while solving one problem and using it to solve another related problem.
+
+In this project we made use of **EfficientNetB0** CNN model that is already trained using the **ImageNet** dataset. We also make use of another method called **Fine Tuning** to tune our efficientNet model in order to **try** to improve our model to predict the food types more accurately.
+
+## 101 Food Classes !
+The model is able to predict the below given 101 classes of food :
+
+['apple_pie',
+ 'baby_back_ribs',
+ 'baklava',
+ 'beef_carpaccio',
+ 'beef_tartare',
+ 'beet_salad',
+ 'beignets',
+ 'bibimbap',
+ 'bread_pudding',
+ 'breakfast_burrito',
+ 'bruschetta',
+ 'caesar_salad',
+ 'cannoli',
+ 'caprese_salad',
+ 'carrot_cake',
+ 'ceviche',
+ 'cheesecake',
+ 'cheese_plate',
+ 'chicken_curry',
+ 'chicken_quesadilla',
+ 'chicken_wings',
+ 'chocolate_cake',
+ 'chocolate_mousse',
+ 'churros',
+ 'clam_chowder',
+ 'club_sandwich',
+ 'crab_cakes',
+ 'creme_brulee',
+ 'croque_madame',
+ 'cup_cakes',
+ 'deviled_eggs',
+ 'donuts',
+ 'dumplings',
+ 'edamame',
+ 'eggs_benedict',
+ 'escargots',
+ 'falafel',
+ 'filet_mignon',
+ 'fish_and_chips',
+ 'foie_gras',
+ 'french_fries',
+ 'french_onion_soup',
+ 'french_toast',
+ 'fried_calamari',
+ 'fried_rice',
+ 'frozen_yogurt',
+ 'garlic_bread',
+ 'gnocchi',
+ 'greek_salad',
+ 'grilled_cheese_sandwich',
+ 'grilled_salmon',
+ 'guacamole',
+ 'gyoza',
+ 'hamburger',
+ 'hot_and_sour_soup',
+ 'hot_dog',
+ 'huevos_rancheros',
+ 'hummus',
+ 'ice_cream',
+ 'lasagna',
+ 'lobster_bisque',
+ 'lobster_roll_sandwich',
+ 'macaroni_and_cheese',
+ 'macarons',
+ 'miso_soup',
+ 'mussels',
+ 'nachos',
+ 'omelette',
+ 'onion_rings',
+ 'oysters',
+ 'pad_thai',
+ 'paella',
+ 'pancakes',
+ 'panna_cotta',
+ 'peking_duck',
+ 'pho',
+ 'pizza',
+ 'pork_chop',
+ 'poutine',
+ 'prime_rib',
+ 'pulled_pork_sandwich',
+ 'ramen',
+ 'ravioli',
+ 'red_velvet_cake',
+ 'risotto',
+ 'samosa',
+ 'sashimi',
+ 'scallops',
+ 'seaweed_salad',
+ 'shrimp_and_grits',
+ 'spaghetti_bolognese',
+ 'spaghetti_carbonara',
+ 'spring_rolls',
+ 'steak',
+ 'strawberry_shortcake',
+ 'sushi',
+ 'tacos',
+ 'takoyaki',
+ 'tiramisu',
+ 'tuna_tartare',
+ 'waffles']
+
